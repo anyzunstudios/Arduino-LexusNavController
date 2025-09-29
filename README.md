@@ -88,8 +88,8 @@ Connect the resistors as shown:
 
 - [x] Basic decoding of known button patterns.  
 - [x] Example sketches (button check, sniffer).  
-- [ ] Add support for dynamic/custom patterns.  
-- [ ] Integration with MCP2515 CAN bus shield.  
+- [x] Add support for dynamic/custom patterns.  
+- [ ] Add support for IR (wireless) Nav Controller.  
 - [ ] Full documentation of all button codes.  
 - [ ] Publish to Arduino Library Manager.  
 
@@ -110,3 +110,4 @@ With this library, you can:
 ## License  
 
 MIT License — see [LICENSE](LICENSE).  
+
