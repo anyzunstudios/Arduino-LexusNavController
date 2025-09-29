@@ -2,6 +2,8 @@
 
 An Arduino library to interface with the **Lexus IS200 / IS300 / Toyota Altezza XE10 Navigation Controller** (model years 1998–2005).  
 
+**Note:** Download the NicoHood's HID library to ensure 100% compatibility: https://github.com/NicoHood/HID
+
 ---
 
 ## Overview  
@@ -21,7 +23,8 @@ With a simple voltage divider, it also works with 3.3V microcontrollers (ESP32, 
 - Decode button presses from the Lexus/Toyota Nav Controller.  
 - Lightweight API for simple integration (`if(nav.press == LNR_BTN_MAP) { ... }`).  
 - Known button patterns stored separately (easy to extend).
-- 3 Examples included.  
+- 4 Examples included.
+- Supports Keyboard, Mouse and Joysitck emulation (Thanks to NicoHood's HID Library) 
 
 ---
 
@@ -115,6 +118,7 @@ With this library, you can:
 ## License  
 
 MIT License — see [LICENSE](LICENSE).  
+
 
 
 
