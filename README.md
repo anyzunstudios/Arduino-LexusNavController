@@ -102,7 +102,7 @@ Connect the resistors as shown:
 
 ## Motivation  
 
-This is my very first electronics + reverse engineering project.  
+This is my very first public electronics + reverse engineering project.  
 I am not a professional engineer — just a car enthusiast and DIY tinkerer who wanted to give new life to the Lexus/Toyota Navigation Remote Controller.  
 
 With this library, you can:  
@@ -115,6 +115,7 @@ With this library, you can:
 ## License  
 
 MIT License — see [LICENSE](LICENSE).  
+
 
 
 
