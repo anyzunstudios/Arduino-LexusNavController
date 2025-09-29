@@ -24,7 +24,7 @@ With a simple voltage divider, it also works with 3.3V microcontrollers (ESP32, 
 - Lightweight API for simple integration (`if(nav.press == LNR_BTN_MAP) { ... }`).  
 - Known button patterns stored separately (easy to extend).
 - 4 Examples included.
-- Supports Keyboard, Mouse and Joysitck emulation (Thanks to NicoHood's HID Library) 
+- Supports Keyboard, Mouse and Joysitck emulation (Thanks to NicoHood's HID Library).
 
 ---
 
@@ -118,6 +118,7 @@ With this library, you can:
 ## License  
 
 MIT License — see [LICENSE](LICENSE).  
+
 
 
 
