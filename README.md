@@ -96,8 +96,7 @@ Connect the resistors as shown:
 
 ## Demo Video  
 
-[![YouTube Video](https://img.shields.io/badge/YouTube-Demo-red?logo=youtube&style=for-the-badge)](https://www.youtube.com/watch?v=WodipJFz0is)
-
+[![Watch the video](https://img.youtube.com/vi/WodipJFz0is/0.jpg)](https://www.youtube.com/watch?v=WodipJFz0is)
 
 ---
 
