@@ -94,6 +94,12 @@ Connect the resistors as shown:
 
 ---
 
+## Demo Video  
+
+[![Watch the video](https://img.youtube.com/vi/WodipJFz0is/0.jpg)](https://www.youtube.com/watch?v=WodipJFz0is)
+
+---
+
 ## Motivation  
 
 This is my very first electronics + reverse engineering project.  
@@ -109,6 +115,7 @@ With this library, you can:
 ## License  
 
 MIT License — see [LICENSE](LICENSE).  
+
 
 
 
