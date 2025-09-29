@@ -12,7 +12,7 @@ However, the OEM navigation system is now obsolete and often replaced by modern 
 Since there is no public documentation (it is not AVC-LAN nor BEAN MPX), this project was born from **reverse engineering** the controller through trial and error.  
 
 The research revealed that the device behaves as a simple **unidirectional UART transmitter** at **2400 baud, 5V TTL logic**, which makes it fully compatible with most Arduino boards (Uno, Mega, Nano, etc.).  
-With a simple voltage divider, it also works with 3.3V microcontrollers (ESP32, Arduino Micro, etc.).  
+With a simple voltage divider, it also works with 3.3V microcontrollers (ESP32, Arduino Pro Micro, etc.).  
 
 ---
 
@@ -53,7 +53,7 @@ With a simple voltage divider, it also works with 3.3V microcontrollers (ESP32, 
 
 ### Voltage Divider: 5V → 3.3V  
 
-If you are using a 3.3V MCU (e.g. ESP32, Arduino Micro), you should reduce the 5V TX signal from the Nav Controller to 3.3V.  
+If you are using a 3.3V MCU (e.g. ESP32, Arduino Pro Micro), you should reduce the 5V TX signal from the Nav Controller to 3.3V.  
 This can be achieved with a simple resistor divider.  
 
 **Required components:**  
@@ -115,6 +115,7 @@ With this library, you can:
 ## License  
 
 MIT License — see [LICENSE](LICENSE).  
+
 
 
 
