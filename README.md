@@ -19,7 +19,7 @@ With a simple voltage divider, it also works with 3.3V microcontrollers (ESP32, 
 ## Features  
 
 - Decode button presses from the Lexus/Toyota Nav Controller.  
-- Lightweight API for simple integration (`if(nav.press == btnMAP) { ... }`).  
+- Lightweight API for simple integration (`if(nav.press == LNR_BTN_MAP) { ... }`).  
 - Known button patterns stored separately (easy to extend).  
 - Optional **PROGMEM** support to save RAM.  
 - Examples included: simple button check and serial sniffer.  
@@ -110,4 +110,5 @@ With this library, you can:
 ## License  
 
 MIT License — see [LICENSE](LICENSE).  
+
 
