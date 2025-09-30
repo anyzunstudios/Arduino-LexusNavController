@@ -1,3 +1,21 @@
+/*
+  LexusNavController - Arduino library to interface with the Lexus IS200/IS300/Toyota Altezza Navigation Controller (1998–2005)
+
+  Author: Anyzun (https://github.com/anyzunstudios)
+  License: MIT
+  Version: 1.0.0
+  Year: 2025
+
+  Description:
+  This library allows decoding of button presses from the Lexus/Toyota Navigation Remote Controller,
+  originally used with the OEM GPS navigation system. The controller communicates via UART (2400 baud, 8N1, 5V TTL).
+  Compatible with Arduino (Uno, Mega, Nano) and 3.3V MCUs (ESP32, etc.) using a voltage divider.
+
+  Credits:
+  If you use this library in your project, please consider giving credit by linking back to:
+  https://github.com/anyzunstudios/Arduino-LexusNavController
+*/
+
 #pragma once
 #include <Arduino.h>
 #include "LNR_Patterns.h"  // brings LNR_Button and default table
@@ -142,3 +160,4 @@ private:
   static bool _eq(const uint8_t* a, const uint8_t* b, uint8_t n);
   void   _printHex(const uint8_t* f, uint8_t n) const;
 };
+
